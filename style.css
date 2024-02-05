@@ -118,6 +118,12 @@ header nav a:hover {
 #boxes{
     margin-top:20px;
 }
+
+#boxes .box i {
+  font-size: 15px;
+  color: #199eea;
+  justify-content: center;
+}
   
 #boxes .box{
     float:left;
@@ -127,12 +133,21 @@ header nav a:hover {
 }
   
 #boxes .box img{
-    width:90px;
+    width:90%;
+    border-radius: 20px;
+}
+  /* FOOTER */
+footer {
+    text-align: center;
+  }
+footer p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
 }
 
-
 @media(max-width: 768px) {
-    header #branding,
+    header .branding,
     header nav,
     header nav li,
     #newsletter h1,
